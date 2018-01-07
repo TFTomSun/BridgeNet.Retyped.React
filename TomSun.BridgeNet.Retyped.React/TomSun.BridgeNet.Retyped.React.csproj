@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="Bridge" Version="*" />
+    <PackageReference Include="Bridge.Core" Version="*" />
+    <PackageReference Include="Retyped.dom" Version="*" />
+    <PackageReference Include="Retyped.es5" Version="*" />
+    <PackageReference Include="Retyped.react" Version="*" />
+    <PackageReference Include="Retyped.react-dom" Version="*" />
+</ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\..\BridgeNet.Loader\TomSun.BridgeNet.Loader\TomSun.BridgeNet.Loader.csproj" />
+</ItemGroup>
+</Project>
