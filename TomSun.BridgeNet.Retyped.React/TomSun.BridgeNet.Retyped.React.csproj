@@ -9,8 +9,6 @@
     <PackageReference Include="Retyped.es5" Version="*" />
     <PackageReference Include="Retyped.react" Version="*" />
     <PackageReference Include="Retyped.react-dom" Version="*" />
-</ItemGroup>
-<ItemGroup>
-  <ProjectReference Include="..\..\BridgeNet.Loader\TomSun.BridgeNet.Loader\TomSun.BridgeNet.Loader.csproj" />
+	<PackageReference Include="TomSun.BridgeNet.Loader" Version="*" />
 </ItemGroup>
 </Project>
